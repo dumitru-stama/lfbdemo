@@ -1,0 +1,9 @@
+#!/bin/bash
+rm -f *.obj *.bin *.elf *.lst
+yasm test.asm -o test.bin
+yasm -f elf64 -g dwarf2 test.asm -o test.obj
+ld -o test.elf test.obj
+objdump -D test.elf -M intel > test.lst
+
+#gcc -o fbtest.elf fbtest.c
+
