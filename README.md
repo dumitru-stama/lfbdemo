@@ -35,6 +35,7 @@ I provided a build script as well.
 
 Demo
 ----
-Please use full HD to actually see the pixels. It is *much* smoother in real time, it awaits for vertical retrace and there is no stutter.
+Please use full HD to actually see the pixels. It is *much* smoother in action in real time, it awaits for vertical retrace and there is no stutter.
+
 [![Demo on youtube](https://github.com/dumitru-stama/lfbdemo/blob/master/docs/from_youtube.png?raw=true)](http://www.youtube.com/watch?v=u6dAp42kSNk "Linux framebuffer Snow demo")
 
