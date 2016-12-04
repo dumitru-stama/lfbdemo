@@ -17,7 +17,7 @@ The problem is there are very little comments in the code and also it's not opti
 How it works
 ------------
 It uses hardcoded 64bit syscalls for system access (open, mmap, ioctl, nsleep). It opens /dev/fb0, maps it into memory and starts using it as a simple raster display. I took the precautions to make it adaptable to other resolutions, however some of the elements assume a fullHD 1920/1080 resolution.
-I am usind "rdrand" instruction to generate random numbers. This is available if you have a fairly recent processor.
+I am using "rdrand" instruction to generate random numbers. This is available if you have a fairly recent processor.
 
 How to Run 
 ----------
@@ -35,6 +35,6 @@ I provided a build script as well.
 
 Demo
 ----
-
+Please use full HD to actually see the pixels. It is *much* smoother in real time, it awaits for vertical retrace and there is no stutter.
 [![Demo on youtube](https://github.com/dumitru-stama/lfbdemo/blob/master/docs/from_youtube.png?raw=true)](http://www.youtube.com/watch?v=u6dAp42kSNk "Linux framebuffer Snow demo")
 
