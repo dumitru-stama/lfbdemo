@@ -36,5 +36,5 @@ I provided a build script as well.
 Demo
 ----
 
-[![IMAGE ALT TEXT](https://github.com/dumitru-stama/lfbdemo/blob/master/docs/from_youtube.png?raw=true)](http://www.youtube.com/watch?v=u6dAp42kSNk "Linux framebuffer Snow demo")
+[![Demo on youtube](https://github.com/dumitru-stama/lfbdemo/blob/master/docs/from_youtube.png?raw=true)](http://www.youtube.com/watch?v=u6dAp42kSNk "Linux framebuffer Snow demo")
 
