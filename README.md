@@ -1,7 +1,7 @@
 # lfbdemo
 Linux Framebuffer Demo - Snow
 
-This project uses Linux framebuffer in console mode to simulate snow falling. Snowflakes are pixels and they actually collide with each other.
+This project uses Linux framebuffer in console mode to simulate snow falling. Snowflakes are pixels and they actually collide with each other and with other objects.
 
 You can see it on youtube at this link : https://www.youtube.com/watch?v=u6dAp42kSNk
 
@@ -35,5 +35,6 @@ I provided a build script as well.
 
 Demo
 ----
-Check the youtube link above
+
+[![IMAGE ALT TEXT](https://github.com/dumitru-stama/lfbdemo/blob/master/docs/from_youtube.png?raw=true)](http://www.youtube.com/watch?v=u6dAp42kSNk "Linux framebuffer Snow demo")
 
